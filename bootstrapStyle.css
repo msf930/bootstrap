@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+}
+
+.headContainer{
+    position: relative;
+    text-align: center;  
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerGradient{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    width: 100vw;
+    height: 21vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.landHeadImg{
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+}
+.centerTxt{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size:  xx-large;
+    font-weight: bold;
+}
+.cardContainer{
+    background-color: rgb(253, 244, 231);
+    display: flex;
+    padding: 20px;
+    margin: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 30px;
+}
+.cardTitle{
+    display: flex;
+    justify-content: center;
+
+}
+.carouselContainer{
+    margin:10vw;
+}
+
+.accordianTitle{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.accordianContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10vw;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+#accordionExample{
+    accordion-btn-color: rgba(128, 128, 128, 0.555);
+}
+.accordianTitle{
+    margin: 20px;
+}
+.footerList{
+    text-align:end;
+    background-color: rgba(128, 128, 128, 0.555);
+    height: 60px;
+
+}
+.footerItems{
+    display: inline-block;
+    font-size: 13px;
+    padding: 20px;
+}
